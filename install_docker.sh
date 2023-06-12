@@ -96,3 +96,6 @@ fi
 docker_compose_install
 docker-compose --version
 echo "Docker-compose has been installed successfully."
+
+##### You can follow this page to install docker compose fast 
+###https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
