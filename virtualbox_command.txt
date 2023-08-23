@@ -1,0 +1,6 @@
+# list vm in the virtualbox(running,stop)
+vboxmanage list vms
+# command show state of virtual machine, if return 1 mean the machine is running, return 0 mean it is stopped
+vboxmanage showvminfo "minikube" | grep -c "running (since"
+# check ip address of a virtual machine inside virtualbox
+VBoxManage guestproperty enumerate <vmname> | grep IP

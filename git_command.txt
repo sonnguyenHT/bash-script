@@ -1,0 +1,4 @@
+# reference: https://alvinalexander.com/git/git-show-change-username-email-address/
+git config user.name
+# show config in git
+git config --list
