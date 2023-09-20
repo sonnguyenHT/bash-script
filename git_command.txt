@@ -2,3 +2,5 @@
 git config user.name
 # show config in git
 git config --list
+# command clone a github repo with machine have multiple ssh keys
+GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519_home_key -o IdentitiesOnly=yes' git clone git@github.com:sonnguyenHT/repo
